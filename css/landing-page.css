@@ -8,6 +8,8 @@ body,
 html {
     width: 100%;
     height: 100%;
+    background-color: black;
+   color: white;
 }
 
 body,
@@ -23,7 +25,8 @@ h6 {
 
 .topnav {
     font-size: 14px; 
-    background: black;
+    background-color: black;
+    border-bottom-color: black;
 }
 
 .lead {
@@ -32,8 +35,8 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 180px; /* If you're making other pages, make sure there is 60px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 20px;
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg-picture.jpg) no-repeat center center;
@@ -95,7 +98,6 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
 }
 
 .content-section-b {
@@ -163,7 +165,6 @@ h6 {
 
 footer {
     padding: 50px 0;
-    background-color: black;
 }
 
 p.copyright {
